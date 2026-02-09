@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 225 33% 98%;
+    --foreground: 209 70% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 209 70% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 209 70% 16%;
+
+    --primary: 209 70% 16%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 33% 98%;
+    --secondary-foreground: 209 70% 16%;
+
+    --muted: 225 20% 90%;
+    --muted-foreground: 209 30% 40%;
+
+    --accent: 182 68% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 20% 88%;
+    --input: 225 20% 88%;
+    --ring: 182 68% 38%;
+
+    --radius: 0.75rem;
+
+    /* Custom portfolio tokens */
+    --navy: 209 70% 16%;
+    --teal: 182 68% 38%;
+    --teal-light: 182 68% 88%;
+    --gray-bg: 225 33% 98%;
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 209 70% 10%;
+    --foreground: 225 33% 98%;
+
+    --card: 209 60% 14%;
+    --card-foreground: 225 33% 98%;
+
+    --popover: 209 60% 14%;
+    --popover-foreground: 225 33% 98%;
+
+    --primary: 182 68% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 209 50% 20%;
+    --secondary-foreground: 225 33% 98%;
+
+    --muted: 209 50% 20%;
+    --muted-foreground: 225 20% 70%;
+
+    --accent: 182 68% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 225 33% 98%;
+
+    --border: 209 50% 20%;
+    --input: 209 50% 20%;
+    --ring: 182 68% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(11, 37, 69, 0.05), 0 2px 4px -1px rgba(11, 37, 69, 0.03);
+  }
+
+  .card-shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(11, 37, 69, 0.08), 0 4px 6px -2px rgba(11, 37, 69, 0.04);
+  }
+}
