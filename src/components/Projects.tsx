@@ -14,7 +14,7 @@ const projects = [
     tech: ["Node.js", "Express", "MongoDB","React"],
     description:
       "Built an end-to-end MERN app for logging meals and tracking macros; React frontend with mobile-first responsive CSS and Node.js/Express backend.",
-    github: "https://github.com/om999-ui",
+    github: "https://github.com/om999-ui/FitMeal",
   },
   {
     title: "Service Booking Backend System ",
@@ -29,6 +29,25 @@ const projects = [
     description:
       "Designed and implemented a relational database for managing student records using MySQL; created complex queries and ensured data integrity through normalization techniques.",
     github: "https://github.com/om999-ui/Student-Management-System-SQL-Project-",
+  },
+  {
+    title: "Portfolio Website",
+    tech: ["HTML", "CSS", "JavaScript", "React"],
+    description:
+      "Developed a responsive and modern personal portfolio website using HTML, CSS, JavaScript, and React to showcase my projects, skills, and experience. Implemented reusable components, smooth navigation, and optimized UI for better user experience across devices. Deployed the application on Vercel for fast and reliable hosting with continuous integration.",
+    github: "https://github.com/om999-ui/portfolio-website",
+  },
+  {
+    title: "AI Chatbot using Python",
+    tech: ["Python", "Required libraries", "Ollama", "Phi (LLM)"],
+    description:"This project is a local AI chatbot built using Python and Ollama, running lightweight LLMs like Phi.",
+    github: "https://github.com/om999-ui/AI-Chatbot-using-Python",
+  },
+  {
+    title: "Static-Website-Hosting-using-Amazon-Web-Services-S3 ",
+    tech: ["Amazon Web Services (AWS)", "S3", "Static Website Hosting", "Cloud Storage"],
+    description:"Static website hosted using Amazon S3.",
+    github: "https://github.com/om999-ui/Static-Website-Hosting-using-Amazon-Web-Services-S3",
   }
 ];
 
