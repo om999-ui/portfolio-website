@@ -48,7 +48,7 @@ const projects = [
     tech: ["Amazon Web Services (AWS)", "S3", "Static Website Hosting", "Cloud Storage"],
     description:"Static website hosted using Amazon S3.",
     github: "https://github.com/om999-ui/Static-Website-Hosting-using-Amazon-Web-Services-S3",
-  }
+  },
    {
     title: "EventX — Event Ticket Booking Platform",
     tech: ["React", "Node.js", "Express", "MongoDB", "REST API"],
