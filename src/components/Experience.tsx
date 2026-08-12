@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Recode Hive",
     role: "Open Source Developer",
-    period: "Nov 2024 – Dec 2024",
+    period: "Nov 2025 – Dec 2025",
     description: [
       "Developed backend REST APIs using Node.js and Express.js to handle data flow and CRUD operations.",
       "Worked with MongoDB schemas and API testing using Postman.",
