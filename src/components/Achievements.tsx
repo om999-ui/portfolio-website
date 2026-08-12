@@ -21,6 +21,11 @@ const achievements = [
     organization: "HackerRank",
     icon: Trophy,
   },
+   {
+    title: "Java Certification",
+    organization: "HackerRank",
+    icon: Trophy,
+  },
   {
     title: "The Complete 2025 Web Development Bootcamp",
     organization: "Udemy — Dr. Angela Yu",

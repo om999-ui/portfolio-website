@@ -22,7 +22,7 @@ export const Education = () => {
                     Dr. D. Y. Patil Institute of Technology
                   </p>
                   <p className="text-sm text-muted-foreground mb-2">
-                    Expected 2026 · CGPA: 7.85 / 10
+                    Expected 2026 · CGPA: 8.01 / 10
                   </p>
                 </div>
               </div>

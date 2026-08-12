@@ -8,11 +8,13 @@ export const About = () => {
           </h2>
           <div className="bg-background p-8 md:p-12 rounded-2xl card-shadow-lg">
             <p className="text-base md:text-lg leading-relaxed text-foreground">
-              I'm Om Shrimant Masal, an aspiring Full-Stack developer specializing in the MERN stack 
-              (MongoDB, Express, React, Node). I've completed hands-on internships in web development 
-              and telecommunications support where I built responsive frontends, RESTful backends and 
-              learned disciplined testing and troubleshooting. I'm excited to contribute to practical 
-              projects, learn from experienced teams, and grow as an engineer.
+              Hi, I'm Om Masal, an Electronics & Telecommunication Engineering student with a strong passion for software development, full stack web development, and AI-driven technologies.
+
+I enjoy turning ideas into practical, user-friendly applications and solving problems through clean and efficient code. My experience includes working with Java, JavaScript, React.js, Node.js, Express.js, MongoDB, and MySQL, along with building RESTful APIs and implementing secure authentication systems.
+
+I've built projects such as FitMeal, a nutrition tracking platform, EventX, an event ticket booking platform with online payments, and JSTACK, a full-stack job portal. These projects have helped me gain hands-on experience in backend development, databases, APIs, authentication, payment integration, and responsive UI design.
+
+I'm constantly learning new technologies, improving my problem-solving skills, and looking for opportunities where I can build meaningful software, learn from real-world challenges, and grow as a Software Engineer.
             </p>
           </div>
         </div>

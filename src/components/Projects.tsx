@@ -49,6 +49,12 @@ const projects = [
     description:"Static website hosted using Amazon S3.",
     github: "https://github.com/om999-ui/Static-Website-Hosting-using-Amazon-Web-Services-S3",
   }
+   {
+    title: "EventX — Event Ticket Booking Platform",
+    tech: ["React", "Node.js", "Express", "MongoDB", "REST API"],
+    description:"Developed a full-stack event ticket booking platform with React frontend and Node.js/Express backend. Integrated Stripe API for secure online payments and implemented MongoDB for data storage.",
+    github: "https://github.com/om999-ui/EventX-Event-Ticket-Booking-Platform",
+  }
 ];
 
 export const Projects = () => {
